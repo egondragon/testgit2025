@@ -22,7 +22,7 @@ void usage(std::string sz_name) {
 }
 
 int main(int ac, char **av) {
-  std::cout << "Hi this is my new git repo" << std::endl;
+  std::cout << "Hi, we are in the experiment branch" << std::endl;
 
   if (ac < 3) {
     usage(av[0]);
