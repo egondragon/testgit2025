@@ -22,7 +22,10 @@ void usage(std::string sz_name) {
 }
 
 int main(int ac, char **av) {
-  std::cout << "Hi, we are in the master branch" << std::endl;
+  std::cout << "Hi, we are in the experiment branch" << std::endl;
+  std::cout << "Hi, we are in the rebased master branch" << std::endl;
+
+>>>>>>> experiment
 
   if (ac < 3) {
     usage(av[0]);
