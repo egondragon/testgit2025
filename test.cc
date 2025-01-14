@@ -22,9 +22,13 @@ void usage(std::string sz_name) {
 }
 
 int main(int ac, char **av) {
+<<<<<<< HEAD
   std::cout << "Hi, we are in the experiment branch" << std::endl;
 
   std::cout << "Hi, we are in the master branch" << std::endl;
+=======
+  std::cout << "Hi, we are in the rebased master branch" << std::endl;
+>>>>>>> 28440e9 (First commit in Experiment branch)
 
 
   if (ac < 3) {
